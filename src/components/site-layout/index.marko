@@ -1,3 +1,12 @@
+class {
+  onCreate() {
+    this.state = { foo: 'bar' }
+  }
+  onMount() {
+    this.setState({foo: 'baz' })
+  }
+}
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
